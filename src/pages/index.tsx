@@ -1,10 +1,11 @@
-import {ComponnetA, ComponentB} from '../components/index';
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 const Main = () => {
   return (
     <div>
-      <ComponnetA />
-      <ComponentB />
+   <Header/>
+   <Hero/>
     </div>
   );  
 };

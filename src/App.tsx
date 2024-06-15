@@ -1,19 +1,23 @@
 import Main from "./pages";
 import './App.css'
 import { useEffect, useState } from "react";
+
+const API_URL = "https://piccolo-server.vercel.app/words"
 function App() {
 
-const [title, setTitle] = useState("")
-const [loading, setLoading] = useState(false)
+const [title, setTitle] = useState<unknown>("")
+const [loading, setLoading] = useState<boolean>(false)
 
 useEffect(() => {
   const fetchRandom = async () => {
 setLoading(true)
 try {
   const response = await fetch(
-    "http://43.201.83.196/words"
+    "https://piccolo-server.vercel.app/words"
   )
   const data = await response.json()
+  console.log("data", data);
+  
   const words = data.data
   const randomIndex = Math.floor(
     Math.random() * words.length
@@ -27,12 +31,18 @@ try {
   
 }
 
+return {
+  title,
+  loading,
+}
   }
+  
 fetchRandom()
 }, [])
   return (
     <div className="App">
       <Main />
+    
     </div>
   );
 }

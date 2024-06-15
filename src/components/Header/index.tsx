@@ -1,10 +1,8 @@
-import axios from 'axios';
-import React, { useState } from 'react';
-
+import React from 'react';
 
 const Header = () => {
     return (
-        <div id='header'>
+                    <div id='header'>
             <div className="header">
                <div className="bloc1">
                 <input type="text" />
@@ -141,42 +139,8 @@ const Header = () => {
             </div>
             
         </div>
+
     );
 };
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // { title, loading }
-    // : React.FC<BoardProps> 
-// const initialInputValue = Array(5).fill("");
-// const initialColors = Array(5).fill(Array(5).fill("white"));
-
-// const 
-
-// }
-
-
-
-
-
-
-// interface BoardProps {
-//     title: string;
-//     loading: boolean;
-// }

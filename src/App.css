@@ -1,550 +1,107 @@
 
+.App {
+  text-align: center;
+  height: 100vh;
+  /* padding: 40px; */
+}
+
 
 body {
-  background: rgb(13, 7, 57);
+  background-color: rgb(12, 12, 64);
 }
 
-.header {
+
+.font {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  margin-top: 40px;
-}
-.bloc1 input {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-outline: none;
-  border: none;
-}
-
-.bloc2 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-outline: none;
-  border: none;
-}
-.bloc3 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-.bloc4 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc5 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-
-.task {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-margin-top: 40px;
-}
-
-.bloc6 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-
-.bloc7 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc8 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc9 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc10 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.task2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 40px;
-}
-
-
-.bloc11 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc12 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-
-.bloc13 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-
-.bloc14 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc15 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-
-.task3 {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 30px;
-margin-top: 40px;
-
-}
-
-
-.bloc16 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc17 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc18 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc19 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc20 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.task4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 40px;
-}
-
-
-.bloc21 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc22 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc23 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc24 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.bloc25 {
-  width: 60px;
-  height: 60px;
-  gap: 0px;
-  border-radius: 10px;
-  background: gray;
-box-shadow: 1px 1px 9px 10px;
-color: white;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-}
-
-.text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 300px;
-  margin-top: 20px;
-  color: white;
-}
-
-
-
-.clavish {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 30px;
-}
-
-
-.clavitura1 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-}
-
-.clavitura2 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-}
-
-.clavitura3 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-  margin-top: 10px;
-}
-
-.clavitura4 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-}
-
-
-.clavitura5 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-}
-
-
-.clavitura6 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-}
-
-.clavitura7 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-}
-
-.clavitura8 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-}
-
-.clavitura9 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-}
-
-.clavitura10 button {
-  width: 40px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
-}
-
-
-.clavish2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  margin-top: 0px;
   
 }
 
-.clavish3 {
-  display: flex;
-  align-items: center;
+.toping {
+  width: 55px;
+  height: 55px;
+margin: 5px;
+background: transparent;
+outline: none;
+border: 3px solid black;
+box-shadow: 1px 1px 10px 1px;
+color: white;
+}
+
+.App h1 {
+ text-align: center;
+ color: white;
+}
+
+
+.keyboardBase {
+  max-width: 1050px;
+  position: absolute;
+  padding: 5px;
+  left: 50%;
+  bottom: -6%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgb(197, 197, 197); */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(30, 30px);
+  grid-template-rows: repeat(2, 60px);
+  grid-gap: 5px;
   justify-content: center;
-  gap: 6px;
-  margin-top: 0px;
 }
 
-.clavitura01 button {
-  color: white;
-  width: 70px;
-  height: 50px;
-  background-color: gray;
+.key {
+  background-color: rgb(243, 243, 243);
+  border: 2px solid black;
   border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-}
-
-.clavitura01 button {
-  color: white;
-  font-size: 15px;
- text-align: center;
- margin-top: 15px;
- cursor: pointer;
-}
-
-
-.clavituraX button {
-  color: white;
-  width: 70px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 5px;
-  border: 5px solid rgb(0, 0, 0);
-  cursor: pointer;
-  font-size: 23px;
-  font-weight: bold;
- margin-top: 10px;
- text-align: center;
-
-}
-
-
-
-.clavitura1 button {
-  color: white;
+  grid-column: span 2;
+  font-size: 20px;
   text-align: center;
-  margin-top: 10px;
-}
-.clavitura2 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
+  padding-top: 17px;
+  text-transform: uppercase;
 }
 
-.clavitura3 h2 {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
+.key:hover {
+  border: 1px solid #eeeeee;
+  
+  }
 
-.clavitura4 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura4 h2 {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura5 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura6 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura7 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura8 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura9 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.clavitura10 button {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
+  button {
+    width: 100px;
+    height: 48px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+  }
 
 
 
+  .keyboard {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
 
+  .keyLetter {
+    width: 10%;
+    display: block;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+  }
 
-
-
-
-
+  input[type="text"] {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }

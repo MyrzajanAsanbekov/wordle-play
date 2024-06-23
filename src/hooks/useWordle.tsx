@@ -45,7 +45,6 @@ export const useWordle = () => {
           setCurrentIndex(currentIndex + 1);
           setCurrentGuesses("");
         } else {
-        //   alert(`Вы проиграли. Правильное слово: ${word}`);
           setGameOver(true);
           setMessage(true)
         }
@@ -79,7 +78,7 @@ export const useWordle = () => {
       return 'correct'
     }
     if (word.includes(letter) && letter == "") {
-      return "white";
+      return "none";
     }
     if (word.includes(letter) && letter) {
       return "present";

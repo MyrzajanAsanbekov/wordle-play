@@ -42,7 +42,7 @@ const WordG = () => {
               })}
             </div>
           ))}
-          {messsage &&  <p style={{color: 'white'}}>Вы проиграли правильное слово: {word}</p> }
+          {messsage &&  <p style={{color: 'none'}}>Вы проиграли правильное слово: {word}</p> }
           {gameOver && (
             <div>
               <button onClick={initializeGame}>Переключиться на новую игру!</button>
